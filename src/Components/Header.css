@@ -1,0 +1,102 @@
+.inputwapper{
+  font-size: large;
+  background-color:#4e342e;
+ 
+}
+
+.icon {
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background-size: 20px;
+}
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+.css-t0lin4-MuiContainer-root {
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  opacity:#4e342e ;
+  color: white;
+}
+.has-search .form-control-feedback {
+  position: sticky;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: rgb(105, 33, 33);
+  
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+.row {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  width: 75%;
+  align-items: absolute;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1 0 18%;
+  /* The important bit. This percentage decides your columns. 
+ The percent can be px. It just represents your minimum starting width.
+  */
+  margin: 5px;
+  background: tomato;
+  height: 50px;
+  color: white;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#info {
+  font-size: 18px;
+  color: #555;
+
+  margin-bottom: 25px;
+}
+
+a {
+  color: #074E8C;
+}
+
+.scrollbar {
+  margin-left: 30px;
+  float: left;
+  height: 300px;
+  width: 65px;
+  background: #F5F5F5;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
+
+.force-overflow {
+  min-height: 450px;
+}
+
+#wrapper {
+
+  width: 500px;
+  margin: auto;
+}

@@ -1,0 +1,47 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+margin-right: 40px;
+}
+
+.col {
+  flex: 1 0 18%;
+  /* The important bit. This percentage decides your columns. 
+ The percent can be px. It just represents your minimum starting width.
+  */
+  margin: 10px;
+  
+  height: 50px;
+  color: white;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.button{
+position: relative;
+  background-color: #ee9715;
+  border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+margin-right: 90px;
+margin-top: 50px;
+margin-bottom: 40px;
+}
+.Container{
+display: flex;
+background-color: rgb(3, 2, 2);
+}
+.page {
+align-items: center;
+margin-top: 20px;
+margin-left: 500px;
+position: relative;
+}
